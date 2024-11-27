@@ -217,6 +217,7 @@ const InputGroup = styled.div`
         color: #ffffff;
         display: block;
         margin-bottom: 8px;
+        font-family: "Sarala", sans-serif;
     }
 
     input {
@@ -226,6 +227,7 @@ const InputGroup = styled.div`
         border: 1px solid #d4d4d4;
         font-size: 16px;
         font-style: italic;
+         font-family: "Sarala", sans-serif;
     }
 `;
 
@@ -241,6 +243,7 @@ const SubmitButton = styled.button`
     font-weight: 700;
     cursor: pointer;
     transition: background-color 0.3s;
+     font-family: "Sarala", sans-serif;
 
     &:hover {
         background-color: #d57566;
