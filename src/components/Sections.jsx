@@ -98,7 +98,7 @@ const Header = styled.div`
 
 
 const ShowtimeWrapper = styled.div`
-    
+    font-family: "Sarala", sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -116,7 +116,7 @@ const Day = styled.div`
     width: 95%;
     max-width: 338px;
     max-height: 149px;
-     font-family: "Sarala", sans-serif;
+    font-family: "Sarala", sans-serif;
    
 `;
 
@@ -125,14 +125,14 @@ const Date = styled.div`
     font-weight: 400;
     color: #ffffff;
     text-align: justify;
-     font-family: "Sarala", sans-serif;
+    font-family: "Sarala", sans-serif;
 `;
 
 const Clock = styled.div`
     display: flex;
     justify-content: center;
     gap: 25px;
-     font-family: "Sarala", sans-serif;
+    font-family: "Sarala", sans-serif;
 `;
 
 const LinkButton = styled(Link)`
@@ -146,7 +146,7 @@ const LinkButton = styled(Link)`
     text-align: center;
     cursor: pointer;
     transition: background-color 0.3s;
-     font-family: "Sarala", sans-serif;
+    font-family: "Sarala", sans-serif;
 
     &:hover {
         background-color: #d57566;
